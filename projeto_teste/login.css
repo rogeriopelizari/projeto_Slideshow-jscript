@@ -1,0 +1,84 @@
+@keyframes animacao{
+	0% {background-color:gray;top:0;left:0;}
+	25% {background-color:yellow;top:0;left:200;}
+	50% {background-color:blue;top:200;left:200;}
+	75% {background-color:green;top:200;left:0;}
+	100% {background-color:gray;top:0;left:0;}
+}
+body {
+    margin:0;
+    
+}
+.objeto{
+	width:200px;
+	height:200px;
+    background-color:gray; 
+    word-wrap:break-word;
+	/*position:absolute;
+	animation-name:animacao;
+    animation-duration:4s;  
+    animation-delay:2s;
+    animation-iteration-count:3*/
+    ;
+}
+.exempdeg{
+    width:500px;
+    height:200px;
+    background-color:blue;
+    background:linear-gradient(75deg, white, blue);
+    /*background:-moz-linear-gradient(white, blue);
+    background-color:-o-linear-gradient(white, blue);
+    background-color:-webkit-linear-gradient(white, blue);
+    text-align:center;*/
+}
+#teste{
+    text-align:center;
+    background-color:green;
+    margin-left:100px;
+    margin-top:50px;
+    width:200px;
+    height:200px;
+    border-radius:50px;
+    border-top-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+.transicao{
+    width: 150px;
+    height:150px;
+    background-color:goldenrod;
+    margin:auto;
+    margin-top:50px;
+    text-align:center;    
+    transition:all 3s linear;
+}
+.transicao:hover{
+    width:300px;
+    height:400px;
+    background-color:hotpink;
+}
+a {
+    color:#000;
+    transition:all 2s linear;
+}
+a:hover{
+    color:#FF0000;
+}
+
+form{
+    width:180px;
+    height:150px;
+    background-color:#DDD;
+    margin:auto;
+    padding:20px;
+    margin-top:50px;    
+}
+input{
+    padding:5px;
+    font-size:13px;
+    border-radius:5px;
+    border:1px solid #000;
+}
+footer{
+    text-align:center;
+}

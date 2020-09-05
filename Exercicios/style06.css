@@ -1,0 +1,17 @@
+body {
+	margin:0;
+}
+#teste {
+	background-color:green;
+	margin-left:100px;
+	margin-top:100px;
+	width:200px;
+	height:200px; 
+	border-top-left-radius:10px; 
+	border-top-right-radius:70px;
+}
+
+input {
+	border-radius:7px;
+	border:1px solid #000;
+}

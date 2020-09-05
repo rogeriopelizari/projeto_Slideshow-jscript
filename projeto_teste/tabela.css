@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:50px;
+    font-size:17px;
+}
+
+h1{
+    font-family: 'Dancing Script';
+}
+
+table{
+    width:600px;
+}
+table thead{
+    background-color:#ccc;
+}
+th {
+    font-weight:normal;
+}
+th, td{
+    padding:10px;
+    text-align:left;    
+}  
+tbody tr:hover{
+    background-color:#EEE;
+}
+tbody tr:nth-child(even){
+    background-color: #eee;
+}
+

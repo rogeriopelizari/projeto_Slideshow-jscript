@@ -1,0 +1,21 @@
+body{
+    margin:5px;
+}
+
+.container{
+    display:flex;
+    height:500px;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items:flex-end;
+    background-color:#dddddd;
+    margin:10px;
+}
+.container div {
+    width:150px;
+    height:150px;
+    background-color:#ff0000;
+    margin:10px;
+    padding:10px;
+    font-size:18px;
+}

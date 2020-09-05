@@ -1,0 +1,21 @@
+body {
+    margin:0;
+}
+.teste{
+    width:600px;
+    height:400px;
+    background-color:red;
+}
+
+@media only screen and (min-width:200px) and (max-width:600px) {
+    .teste{
+        background-color:green;
+        width:200px;
+    }    
+}
+
+@media only screen and (orientation:lasdscape){
+    .teste{
+        width:200px;
+    }
+}

@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #f4f4f4;
+}
+#Principal {
+    width: auto;
+    height: auto;
+}
+#cabecalho {
+    width: auto;
+    height: 162px;
+    background: url(../imagens/fundo-menu.png);
+}
+#cabecalho_superior {
+    width: 980px;
+}
+.fundo_azul{
+    background: #28A5d9;
+}
+.fundo_principal{
+    background: url(../imagens/fundo-menu.png);
+}
+#menu-cima{
+    width: 980px;
+    height: 22px;
+    background: #FFF;
+    margin: 0 auto;
+    font-size: 10px;
+}
+#menu-cima ul{
+    width: 280px;
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+#menu-cima ul li{
+    display: inline;
+    margin-left: 10px;
+}
+#menu-cima ul li a{
+    color:#000;
+}
+#menu-cima ul li a:hover{
+    color:red;
+}
+#cabecalho_meio{
+    width: 980px;
+    height: 110px;
+    position: relative;
+}
+#cabecalho_meio h1{
+    text-indent: -9999px;
+    width: 175px;
+    height: 52px;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    background:url(../imagens/img-logo.png)
+    no-repeat top right;
+}
+.sacola{
+    background:url(..//imagens/carrinho.png)
+    no-repeat top right;
+    width: 300px;
+    font-size: 10px;
+    height: 25px;
+    position: absolute;
+    top:10px;
+    right:200px;
+    text-align:right;
+    padding-right:20px;    
+}
+.busca{
+    width:450px;
+    height:35px ;
+    text-align:right;
+    position:absolute;
+    top:40px;
+    left:335px;
+}
+.busca input[type=search]{
+    width: 300px;
+}
+#cabecalho_inferior{
+    width: 980px;
+    border-bottom: 1px solid #ccc;
+    line-height: 22px; 
+}
+#menu-principal{
+    width:100%;
+    height: 27px;
+    padding-top: 0,5px;
+    margin: 0 auto;
+    margin-left: 130px;
+    text-align: center;
+ }
+#menu-principal ul{
+    list-style: none;
+    font-family: "trebuchet MS";
+}
+#menu-principal ul li{
+    display: inline;
+    margin-left: 5px;
+    font-weight: bold;
+    padding: 5px 30px;
+    font-size: 13px;
+}
+.linha-vertical{
+    border-right: 1px solid #ccc;    
+}
+#menu-principal ul li a {
+    color: #333;
+    text-decoration: none;
+}
+#menu-principal ul li a:hover{
+    color: red;
+}
+.banner{
+    width:940px;
+    height:auto;
+}
+#corpo_loja{
+    width:960px;
+    height:auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.categorias{
+    width: 219px;
+    height: auto;
+    float: left;
+    margin-right: 8px;
+    border: solid 1px #ccc;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.categorias h2{
+     width: 208px;
+     height: 19px;
+     padding-left: 10px;
+     margin-bottom: 10px;
+     color:#FFF;
+     font-size: 16px;
+}
+.categorias ul{
+     width: 219px;
+     list-style: none;
+}
+.categorias ul li a{
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+}
+.categorias ul li a:hover{
+    color: red;
+}
+.categorias ul ul{
+    width: 100%;    
+    background: #FFF;
+}
+.categorias ul ul li{
+    border-bottom: solid 1px #ccc;
+    padding:10px 0 10px 15px;
+}
+.categorias ul ul li a{
+    color:#666;
+    font-size: 12px;
+}
+.categorias ul ul li a:hover{
+    color: #00ccFF;
+    font-size: 14px;
+}
+.titulo{
+    width: 701px;
+    height: 19px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color:#FFF;
+}
+#lado-direito{
+   width: 710px;
+   height: auto;
+   margin-top: 10px;
+   float: left;
+}
+.vitrine{
+    margin: 10px 0;
+    padding: 5px;
+    width: 698px;
+    height: auto;
+    border: solid 1px #ccc;
+}
+.vitrine h2, ul{
+    width: 691px;    
+    border:solid 1px #ccc;
+    padding: 2px;
+    background: #fbfbfb;
+}
+.vitrine ul{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.vitrine h2{
+    height: 20px;
+}
+.vitrine li{
+    width: 140px;
+    margin: 13px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.vitrine a{
+    color: #333;
+    font-size:14px ;
+    text-decoration: none;
+}
+.vitrine figure{
+    margin-bottom: 5px;
+}
+.vitrine span{
+    color: #FF0000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.vitrine input{
+    width: 94px;
+    height: 33px;
+    background: url(../imagens/comprar.png) 
+    no-repeat;
+    border: 0;
+    margin-top: 5px;
+}

@@ -1,0 +1,67 @@
+body {
+	margin:0;
+}
+
+.exemplo {
+	width:500px;
+	height:200px;
+	background:blue; 
+	background:linear-gradient(45deg, white, blue); 
+}
+.exemplodois{
+	width:500px;
+	height:200px;
+	background:linear-gradient(-75deg, white, orange);
+}
+.exemplotres{
+	width:500px;
+	height:200px;
+	background:linear-gradient(-75deg, white, purple);
+}
+.exemploquatro{
+	width:500px;
+	height:200px;
+	background:linear-gradient(-45deg, white, gray);
+}
+.exemplofirefoxoperawebkit{
+	background:-moz-linear-gradient(red, orange);
+	background:-o-linear-gradient(purple, white);
+	background:-webkit-linear-gradient(white, green);
+}
+
+#expum{
+	margin-top:20px; 
+	border-radius:5px; 
+	margin-left:173px; 
+	margin-bottom:20px; 
+}
+#exdois{
+	margin-top:20px;
+	border-radius:15px;
+	margin-left:600px;
+	margin-bottom:20px; 
+}
+#extreis{
+	margin-top:20px;
+	border-radius:5px; 
+	margin-left:173px; 
+	margin-bottom:20px;
+}
+#exquatro{
+	margin-top:20px;
+	border-radius:15px;
+	margin-left:600px; 
+	margin-bottom:20px;
+}
+hr {
+	width:70%;	
+}
+.vl {
+  border-left: 2px solid gray;
+  height:70.3%;
+  position: relative;
+  left: 50%;
+  margin-top:9px; 
+  margin-left: -3px;
+  top: 0;
+}
